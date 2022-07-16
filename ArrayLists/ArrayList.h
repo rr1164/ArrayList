@@ -6,7 +6,9 @@ public:
     ArrayList(int array_size);
     void insert_new_element(int element);
     void clear();
+    void most_repeated();
     void print();
+    ~ArrayList();
 private:
     int m_len = 0;
     int m_capacity = 0;
